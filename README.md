@@ -25,7 +25,7 @@ Vulnerability #2: __________________
 
 Vulnerability #1: Username Enumeration
 The error HTML for a valid username is different. It has a CSS class of "failed" instead of "failure", as in the styles.css
-![gree username enumeration gif]()
+![gree username enumeration gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/green%20username%20enum.gif?raw=true)
 Vulnerability #2: __________________
 
 
