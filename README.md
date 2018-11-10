@@ -37,7 +37,7 @@ The login page's error HTML for a valid username is different, having a CSS clas
 ![greenlogin form username enumeration gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/green%20username%20enum.gif?raw=true)
 
 Vulnerability #2: XSS
-The public contact page's input is not sanitized, alloing for scripts. When an administrator views the comment a scipt in the comment can be run.
+The public contact page's input is not sanitized, allowing for scripts. When an administrator views the comment a scipt in the comment can be run.
 
 ![green contact form xss gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/green%20xss.gif?raw=true)
 
@@ -55,4 +55,4 @@ The site does not validate the csrf_token. A user can be tricked into viewing a 
 
 ## Notes
 
-I had trouble getting anything rfom teh database, until I used sqlmap
+I had trouble getting anything rfom teh database, until I used sqlmap.
