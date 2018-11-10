@@ -55,4 +55,4 @@ The site does not validate the csrf_token. A user can be tricked into viewing a 
 
 ## Notes
 
-I had trouble getting anything rfom teh database, until I used sqlmap.
+I had trouble getting anything from teh database, until I used sqlmap.
