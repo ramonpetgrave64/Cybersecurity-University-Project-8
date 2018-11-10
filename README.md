@@ -52,7 +52,7 @@ The id parameter on the salesperson page allows anyone to view profiles of any s
 ![red salesperson idor gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/red%20idor.gif?raw=true)
 
 Vulnerability #2: CSRF
-The site does not validate the csrf_token. A user can be tricked into viewing a page that has a hidden form. In my example, the page with the hidden form changes the name of the salesperson with id=1, and then redirects the browser window to another legitimate website.
+The site does not validate the csrf_token. A user can be tricked into viewing a page that has a hidden form. In my example, [the page with the hidden form](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/redCSRF.html) changes the name of the salesperson with id=1, and then redirects the browser window to another legitimate website.
 
 ![red csrf gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/red%20csrf.gif?raw=true)
 
