@@ -41,6 +41,9 @@ The public contact page's input is not sanitized, allowing for scripts. When an 
 
 ![green contact form xss gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/green%20xss.gif?raw=true)
 
+Bonus: Script in my XSS example shows the cookies, sets a cookie, and performs a redirect.
+![xss bonus gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/green%20xss%20bonus.gif?raw=true)
+
 ## Red
 
 Vulnerability #1: IDOR
