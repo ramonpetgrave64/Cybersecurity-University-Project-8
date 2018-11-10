@@ -16,8 +16,10 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQLI
+The find a salesperseon page is vulnerable to a SQL Injection.
 
+Bonus: Usernames, password hashes, and information on salespersons can be extracted form the database.
 Vulnerability #2: __________________
 
 
@@ -31,7 +33,9 @@ The public contact page's input is not sanitized, alloing for scripts. When an a
 ![green contact form xss gif](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/green%20xss.gif?raw=true)
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: IDOR
+The id parameter on the salesperson page allows anyone to view profiles of any salesperson, including terminated employees and profiles not meant to be public.
+
 
 Vulnerability #2: __________________
 
