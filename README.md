@@ -22,8 +22,9 @@ The find a salesperseon page is vulnerable to a SQL Injection.
 
 Bonus: Usernames, password hashes, and information on salespersons can be extracted form the database.
 ![blue sqli extraction](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/blue%20sqli%20bonus.gif?raw=true)
-Vulnerability #2: __________________
-
+Vulnerability #2: Session Hijacking
+Vulnerable to Session Hijacking/Fixation. An attker can use a logged in user's session id to gain access.
+![blue session hijack](https://github.com/ramonpetgrave64/Cybersecurity-University-Project-8/blob/master/blue%20session%20hijack.gif?raw=true)
 
 ## Green
 
